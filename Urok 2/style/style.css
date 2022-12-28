@@ -3,19 +3,17 @@
     margin: 10px auto;
     padding: 15px 15px;
     border: 2px solid red;
+    font-size: 20px;
 }
 .gold-text{
 color: gold;
-font-size: 15px;
 }
 a[href="https://uk.wikipedia.org/wiki/Архітектура_системи_команд"]{
 color: brown;
 font-size: 17px;
 }
 .green-text{
-color: green;
-font-size: 15px;
-width: 300px;   
+color: green;   
 }
 a[href="https://uk.wikipedia.org/wiki/Мікроархітектура"]{
 color: rgb(204, 40, 169);
@@ -23,7 +21,6 @@ font-size: 17px;
 }
 .blue-text{
 color: blue;
-font-size: 15px;
 }
 a[href="https://uk.wikipedia.org/wiki/Ядро_мікропроцесора"]{
 color: rgb(241, 21, 21);
