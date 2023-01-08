@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+html, body{
+    font-family: 'Poppins', sans-serif;
+}
+body{ 
+    font-size: 16px;
+    background-color: #FFFFFF; 
+}
+ #logo, nav, ul, li, .buy, .menu, .Landing_Title, .image,
+ .position, .characteristics, .normal, .vector, 
+ .image-Mark, .image, .text, .fuction, .jones_david,
+ .Name, .title, .reviews
+  {
+    display: inline-block;
+} 
+.block, h2, .p-text, .specialists, .phone, .authors,
+.for-who, .white-text-block, .people, header,.check_demo,
+.opinions, .opinion_example, .start_with,.my_product,
+.discount{
+    margin: 0 auto; 
+} 
+nav, .Landing_Title, .characteristics, .text, .fuction,.title{
+    vertical-align: top;
+} 
+h1{
+    font-weight: 700;
+    size: 47px;
+}
+h2{
+    font-weight: 600;
+    size: 36px; 
+    margin: 0 0 12px 0;
+} 
+h3{
+    font-weight: 600;
+    size: 27px;
+} 
+h4{ 
+    font-weight: 500;
+    size: 21px;
+} 
+header{
+    padding: 16px 12px;
+    width: 1324px;
+}
+.menu{ 
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 21px;
+    color: #000000;
+    padding: 12px;
+}
+button{
+   padding: 10px 16px;
+}
+.buy{
+    color: #2203E4;
+    font-weight: 500;
+    font-size: 21px; 
+    background: none; 
+    border: 1px solid #2203E4;
+} 
+#logo{   
+    width: 183px;
+    font-weight: 600;
+     font-size: 27px;
+}  
+nav{     
+    text-align: right;
+    width: 1134px;  
+} 
+.Landing_Title{
+    width: 631px; 
+    margin: 266px 48px 0 0;
+} 
+.iPhone13{
+    width: 449px; 
+    margin-top: 118px;
+} 
+.btn-blue{
+    background: #0062FF;
+   margin-top: 30px; 
+   border: none;
+   margin-right: 24px; 
+}  
+.btn-check{
+    border: 1px solid #575757;
+    margin-top: 29px;
+} 
+.p-text{ 
+    padding: 0 13px;
+}  
+.characteristics{
+    width: 630px; 
+    margin: 0px 112px 0 34px;
+} 
+.phone, .authors, .check_demo, .for-who, .opinions, 
+.my_product{
+    width: 1280px;
+}   
+ h3, h4, #gold{
+    margin: 5px 0; 
+}
+.characteristics{
+    width: 630px; 
+    margin: 0px 112px 0 34px;
+} 
+.image-Mark{
+    width: 150px;
+}
+#gold{
+    color:#DEA405;
+    margin-left: 27px;
+} 
+.icons{
+    padding: 28px 20px 12px 0px;
+} 
+.vector, .normal, .reviews, .jones_david, .reviews {
+    vertical-align: middle;
+} 
+.vector {
+    margin-right: 10px;
+} 
+.position{
+    width: 220px;    
+} 
+.authors{
+    margin-top: 69px; 
+} 
+.specialists{
+    margin-top: 39px;
+}  
+.blue-background{
+    background: #0062FF; 
+    margin-top: 190px;
+} 
+.for-who{
+    padding: 71px 20px;
+} 
+.text{
+width: 451px; 
+margin: 10px 40px 0px 34px;
+} 
+#white, .text, .btn-blue, .btn-blue2, .btn-blue3{
+    color: #FFFFFF;
+}
+.first-line{
+    margin-top: 64px;
+}
+.second-line{
+    margin-top: 46px;
+} 
+.people{
+    width: 1309px;
+}
+.btn-want-it{
+   color: #2203E4; 
+   border: 1px solid #2203E4; 
+   background: #FFFFFF;  
+} 
+.want_it{
+margin: 64px auto 0 auto;
+} 
+.check_demo{
+    margin-top: 32px; 
+    margin-bottom: 130px;
+} 
+#black{
+    color: #000000;
+    margin-top: 20px;
+}  
+.fuction{
+    margin-right: 48px; 
+}
+.fuction, .demo_video{
+    margin-top: 44px;
+}  
+.gold_background_section{
+    background: #FFBE0B;
+}
+.opinions{
+    padding: 67px 0 72px 0;
+} 
+.opinion_example{
+    width: 702px;
+    background: #FFFFFF; 
+    padding: 67px 16px 67px 16px; 
+    margin-top: 45px; 
+    border-radius: 12px;
+} 
+.Name{
+    margin-right: 5px;
+} 
+.blue{
+  color: #2203E4;
+} 
+.grey,.comment,.p-text, h4, .btn-check{
+    color: #575757;
+} 
+.btn-blue2, .btn-blue3{
+    background: #0062FF;
+   border: none;
+} 
+.reviews{
+    margin-bottom: 11px;
+} 
+.my_product,.title{
+    margin-top: 74px;
+} 
+.my_product{
+    width: 951px; 
+} 
+.start_with{
+    padding: 89px 0;
+} 
+.discount{
+    width: 508px; 
+    margin-top: 74px;
+} 
+input{
+    color: #2203E4; 
+    background-color: #3A86FF33; 
+    width: 465px; 
+    border-radius: 12px; 
+    border: #FFFFFF;
+    padding: 25px 20px;  
+} 
+.btn-blue3{
+    margin-top: 14px;
+}
+.your_email{
+    margin-top: 28px;
+} 
+.p-text, .white-text-block, .jones_david{
+    width: 611px;
+} 
+.left, .subtitle, .Text-aling-left, .text, 
+#gold, h4, #logo{
+text-align:left ;
+} 
+.discount, #black, #white,.want_it,
+.p-text, h2 {
+text-align: center;
+}
