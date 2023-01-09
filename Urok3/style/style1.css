@@ -69,6 +69,9 @@ nav{
     text-align: right;
     width: 1134px;  
 } 
+.phone{
+    width: 1133px;
+}
 .Landing_Title{
     width: 631px; 
     margin: 266px 48px 0 0;
@@ -94,7 +97,7 @@ nav{
     width: 630px; 
     margin: 0px 112px 0 34px;
 } 
-.phone, .authors, .check_demo, .for-who, .opinions, 
+.authors, .check_demo, .for-who, .opinions, 
 .my_product{
     width: 1280px;
 }   
