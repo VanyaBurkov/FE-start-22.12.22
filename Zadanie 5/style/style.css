@@ -6,7 +6,8 @@
 } 
 .container{
     margin: 0 auto; 
-    width: 2000px;
+    width: 1357px; 
+    height: 1357px;
 } 
 .blue-yellow, .container, .blue-yellow2{
     position: relative;
@@ -18,19 +19,19 @@
 .first{
     background: #000000; 
     z-index: 1; 
-    left: 205px; 
-    top: 300px;
+    left: 0px; 
+    top: 0px;
 }  
 .second{
     z-index: 2; 
-    top: 682px;
-    right: 854px;
+    top: 427px;
+    left: 427px;
 }
 
 .third{
     z-index: 1; 
-    top: 1098px; 
-    right: 422px; 
+    bottom: 0;; 
+    right: 0px; 
     border-top: 2px solid #2137FC; 
     border-bottom: 2px solid #2137FC ;
 }
