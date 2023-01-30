@@ -1,0 +1,114 @@
+*{
+    box-sizing:border-box   
+}
+.block, .blue, .glyph, .yellow, .yellow2, .blue2, .bottom {
+    position: absolute;
+} 
+.container{
+    margin: 0 auto; 
+    width: 2000px;
+} 
+.blue-yellow, .container, .blue-yellow2{
+    position: relative;
+}
+.first, .second, .third, .blue-yellow, .blue-yellow2 {
+    width: 512px; 
+    height: 512px; 
+} 
+.first{
+    background: #000000; 
+    z-index: 1; 
+    left: 205px; 
+    top: 300px;
+}  
+.second{
+    z-index: 2; 
+    top: 682px;
+    right: 854px;
+}
+
+.third{
+    z-index: 1; 
+    top: 1098px; 
+    right: 422px; 
+    border-top: 2px solid #2137FC; 
+    border-bottom: 2px solid #2137FC ;
+}
+.diya2{
+    width: 310px;  
+    height: 181.88px;
+    
+} 
+.diya1{
+margin:128px 101px 32px 101px; 
+} 
+.flag1{
+    width: 80px; 
+ margin-left: 216px; 
+ 
+} 
+.blue, .blue1{
+    height: 271.5px; 
+    width: 512px; 
+} 
+.blue, .blue2, .blue3{
+    z-index: 3; 
+}
+.yellow{
+    height: 307px; 
+    width: 512px; 
+    z-index: 2; 
+    top: 205px; 
+    background-color:#FFCE22 ; 
+}
+.glyph1{
+    width: 400px;
+    height: 227.36px; 
+}  
+.glyph{ 
+     z-index: 4;
+     top: 145px; 
+     right: 55px;
+    } 
+.flag2{
+    width: 80px; 
+    height: 60px;
+} 
+.bottom{
+    top: 203px; 
+    right: 44px; 
+    width: 358px;
+    height: 203px;
+} 
+.blue2{
+    border-radius: 300px 300px 0 0;
+    overflow: hidden; 
+    height: 222px; 
+    width: 444px;
+    z-index: 3;
+} 
+.yellow2{
+    border-radius: 48px 48px 300px 300px; 
+    height: 257px; 
+    width: 444px; 
+    z-index: 2; 
+    top: 183px; 
+    background-color:#FFCE22 ;
+} 
+.blue3{
+    height: 222px; 
+    width: 444px; 
+}
+.glyph3{
+    width: 358px;
+    height: 203px; 
+} 
+.blue-yellow2{
+    height: 444px; 
+    width: 444px;
+margin: 34px 34px; 
+}
+
+
+
+
