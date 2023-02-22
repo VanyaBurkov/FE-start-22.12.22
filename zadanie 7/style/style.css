@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap');
+html, body{
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}  
+body{
+    background-color: white;  
+    color: #ffff; 
+    font-size: 15px; 
+    font-weight: 400; 
+}
+.background-one{
+    background-image: url(../image/Maskgroup.png);
+    height: 900px;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+} 
+ 
+header{
+    display: flex; 
+    Justify-content:space-between;
+} 
+
+a{
+    text-decoration: none; 
+    font-size: 15px; 
+    color: #FFFFFF;  
+} 
+header, .buy{
+    align-items: center;
+}
+.buy{
+    display: flex; 
+    justify-content: space-around; 
+    margin-left: 30px;
+    column-gap: 8px; 
+    width: 145px;
+} 
+.cost{
+    font-weight: 700;
+    font-size: 15px; 
+    width: 53.79%;
+} 
+.vector{
+    margin-bottom: 7px;
+} 
+.basket{
+    width: 27.58%;
+    border-radius: 20px; 
+    background-color: #281C14; 
+    background-image: url(../image/shopping-basket1.png); 
+    height: 40px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 24px 24px;
+} 
+.logo{
+    width: 231px;
+}
+h1{
+    font-weight: 800; 
+    font-size: 73px;
+} 
+.block-one{
+    width: 653px; 
+    margin-top: 100px;
+} 
+.block-one:nth-child(2){
+    font-weight: 400;
+    font-size: 21px;
+} 
+.view-products{
+    padding: 30px 30px;
+ font-weight: 500;
+ font-size: 18px; 
+ color: #C4C4C4; 
+ border: 1px solid #C4C4C4;
+ border-radius: 56px; 
+ background-color: transparent; 
+ margin-top: 54px;
+} 
+.view-products:hover{
+    color: #151616;
+    background-color: #C98D5A;; 
+    border: none;
+}
+.item{
+    position: relative;  
+
+}
+.item::before{
+  content: "";  
+  display: block; 
+  position: absolute;
+}
+.item:hover::before{
+    width: 74px;
+    height: 2px; 
+    top: 27px;
+    right: 0; 
+    background-color: #C4C4C4; 
+}
+
+.block-two, .background-one, .background-two, .background-three{
+    padding-left: 215px;
+    padding-right: 215px; 
+    width: 100%;
+} 
+h2{
+    font-weight: 800; 
+    font-size: 60px; 
+    color: #151616;
+    text-align: center;
+}
+.block-two, .fraction-one, .line, .block-three, .block-four,
+.block-five{
+    margin: 0 auto;
+} 
+.block-two{
+    margin-bottom: 73px;
+}
+.line{
+    width: 53.875%;
+}
+.line-image{
+    width: 100%;
+}
+.fraction-two{
+   margin: 52px auto 0 auto; 
+   display: flex; 
+   width: 64.8125%; 
+   justify-content: space-between;
+} 
+.icon{
+    width: 216px; 
+    display: flex;
+    Flex-direction: column;
+   align-items: center;
+}
+.thin-line{
+    margin: 22px 0 22px 0;
+    display: block;
+    width: 100%;
+    height: 3px; 
+    background-color: #767676; 
+} 
+.oven, .electric-mixer, .roller, .wheat-sack{
+    width: 49.07%;
+}
+.subtitle{
+    font-size: 20px;
+     color: #151616; 
+     text-align: center;
+}
+.background-two{
+    background-image: url(../image/Mask-group-2.png);
+    height: 860px;
+    background-size: cover;  
+    padding-top: 53px;
+}
+.white-text{
+    color: white;  
+    margin-top: 0;
+} 
+.fraction-three{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+
+}
+.catalog{
+    padding: 15px 45px 15px 45px; 
+    font-weight: 500;
+    font-size: 21px; 
+    color: #C4C4C4; 
+    border: 1px solid #C4C4C4;
+    border-radius: 44px; 
+    background-color: transparent; 
+}
+.catalog:hover{
+    color: #151616;
+    background-color: #C98D5A;; 
+    border: none;
+} 
+.bread{
+    font-weight: 700;
+    font-size: 24px; 
+    color: #C4C4C4; 
+    text-align: center;
+    background-color: #1F1F1F;
+    border-radius: 30px; 
+    padding: 26px 33px 17px 33px;
+    width: 19.2718% 
+}
+.subtitle-two{
+    font-weight: 500;
+    color: #C4C4C4;
+}
+.arrow{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 13px; 
+    align-items: center;
+}
+.weight{
+    padding: 9px 5px 9px 5px; 
+    color: #1F1F1F;
+    background-color: #F59B4D;;
+}
+.fraction-four{
+    display: flex;
+    justify-content: center;
+    column-gap: 54px; 
+    margin-top: 73px;
+} 
+.bread-image{
+    width: 216px;
+    height: 197px;
+    margin: 9px auto 21px auto;
+}
+.darnickii, .podovii{
+    width: 216px;
+    height: 197px; 
+} 
+.three{
+    text-align: left; 
+    margin-top: 20px; 
+}
+.block-four{
+    padding: 0 217px 76px 215px;
+} 
+.italic{
+    color: #000000; 
+    text-align: right; 
+    margin-top: 22px;
+}
+.background-three{
+    background-image: url(../image/Mask-group-2.png);
+    height: 860px;
+    background-size: cover;  
+    padding-top: 53px;
+} 
+.flex-column{
+    display: flex;
+    flex-direction: column; 
+    row-gap: 25px;
+}
+.our-production{
+    display: flex; 
+    justify-content: center;
+    column-gap: 25px;
+}
+footer{
+    display: flex; 
+    background-color: #121413; 
+    padding:0 217px 0px 215px ; 
+    align-items: center;
+    justify-content: space-between;
+}
+.We-are-located{
+    font-weight: 700;
+    font-size: 20px;
+}
+.phone{
+   font-weight: 700;
+   font-size: 24px; 
+}
